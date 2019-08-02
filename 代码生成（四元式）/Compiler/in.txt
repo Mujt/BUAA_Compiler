@@ -1,0 +1,169 @@
+const int a1=0,b1=1,c1=10;
+const char A1='a',B1='A',C1='+',D1='-',E1='*',F1='/',G1='_',H1='1';
+const int d1=-0,e1=+0,f1=+5,g1=-10;
+
+int Fibonaq[10];
+int count;
+char _a__A_;
+
+int add(int a,int k){
+    const int i=0;
+	return (a+k);
+}
+int ret1(int swi){
+	if(swi==1)
+	return (1);
+	if(swi==0)
+	return ('a');
+}
+void fun_void(){
+	const int a=10;
+	int b;
+	char sc;
+}
+int funct_add(int a,int k){
+	int c;
+	char fun_cc[2];
+	fun_cc[0]='Z';
+	fun_cc[1]='0';
+	c=a*k;
+	return (c+add(a,k)-fun_cc[1]+fun_cc[0]);
+}
+char trans_case(char s){
+	if(s>='A'){
+		if(s<='Z')
+		return (s+'a'-'A');
+	}
+	if(s>='a'){
+		if(s<='z')
+		return (s-('a'-'A'));
+	}
+}
+void count_1(){
+	count=count+1;
+	return;
+}
+void FibonA(int k){
+	if(k==10)
+		return;
+	Fibonaq[k]=Fibonaq[k-1]+Fibonaq[k-2];
+
+	FibonA(k+1);
+	return;
+}
+
+void main(){
+	const int a_num=10,b_num=20;
+	const char test='c';
+	int a_array[5],k;
+	char C_array[5];
+	int m,swisym;
+	char n;
+	int Fibo_count;
+	int sc,a,b;
+	char sss;
+	int sk;
+	sk=0;
+	sss='S';
+	k=0;
+	;;
+	count_1();
+	while(k<5){
+		scanf(m,n);
+		a_array[k]=m;
+		C_array[k]=n;
+		k=k+1;
+	}
+	scanf(_a__A_);
+	scanf(sc);
+	scanf(a,b);
+
+	count_1();
+	Fibo_count=2;
+	Fibonaq[0]=0;
+	Fibonaq[1]=1;
+	FibonA(Fibo_count);
+	k=0;
+	while(k<10){
+		printf("FIBONAQ:",Fibonaq[k]);
+		k=k+1;
+	}
+
+	count_1();
+	fun_void();
+
+	count_1();
+	switch(_a__A_){
+		case 'a':{
+			if(sc)
+			printf("_a__A_ is the first:",_a__A_);
+			switch(sk){
+                case 0:
+                    printf("sk is 0");
+                default:
+                    printf("sk is not 0");
+			}
+			}
+		case 'b':
+			if(sc)
+			printf("_a__A_ is the second:",_a__A_);
+		case 'c':
+			if(sc){
+			printf("_a__A_ is the third:",_a__A_);
+			}
+		default:
+			printf("default:_a__A_ is not in swich words:",_a__A_);
+	}
+
+	count_1();
+	if(a>=b)printf("a >= b");
+	if(a+1<=2*b)printf("a+1 <= 2b");
+	if(a==10) printf("a is 10;");
+	if(a!=b)printf("a != b");
+	if(a<2*b)printf("a < 2*b");
+	if(a>b)printf("a > b");
+	if(a+b)printf("a+b is not 0");
+
+	count_1();
+	printf(add(a+100,b*2));
+
+	count_1();
+	printf("funct_add:",funct_add(a,b));
+
+	count_1();
+	printf(A1+B1+C1+D1+E1+F1+G1+H1);
+
+	count_1();
+	b=a+a*(b-1);
+	printf("a+b+A1-B1:",a+b+A1-B1);
+	printf(a1+d1+e1);
+	printf(f1+g1);
+	printf("-(a+b)+A1-B1+a*b/2-add(k,1)*2+a_array[1]*2/3+'a'-10:",-(a+b)+A1-B1+a*b/2-add(k,1)*2+a_array[1]*2/3*a_array[0]+'a'-10);
+
+	count_1();
+	printf("  !#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUV  WXYZ[\]^`abcdefghijklmnopqrstuvwxyz{|}~ ");
+
+	{;;};;
+
+	{
+	count_1();
+	printf(1);
+	printf('a');
+	printf("Helloworld!");
+	printf("count_1:",count);
+	printf("print1:",add(a_array[0],a_array[1]+1));
+	printf(C_array[0]);
+	printf(trans_case(C_array[0])*10/2);
+	}
+
+	k=5;
+	while(2*k-k){
+		printf(trans_case(C_array[k-1]));
+		k=k-1;
+		while(sk==0){
+		sk=sk+1;
+		}
+	}
+
+	return;
+}

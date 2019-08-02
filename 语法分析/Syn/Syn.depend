@@ -1,0 +1,71 @@
+# depslib dependency file v1.0
+1542811661 source:d:\±àÒëÆ÷¿ÎÉè\syn\lexical.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Lexical.h"
+
+1542785739 d:\±àÒëÆ÷¿ÎÉè\syn\lexical.h
+
+1542811638 source:d:\±àÒëÆ÷¿ÎÉè\syn\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Lexical.h"
+	"syn.h"
+
+1542811696 source:d:\±àÒëÆ÷¿ÎÉè\syn\error.c
+	<stdio.h>
+	"error.h"
+	"Lexical.h"
+
+1542768815 d:\±àÒëÆ÷¿ÎÉè\syn\error.h
+	<stdio.h>
+	"Lexical.h"
+
+1542801423 d:\±àÒëÆ÷¿ÎÉè\syn\syn.h
+	"Lexical.h"
+
+1542811466 source:d:\±àÒëÆ÷¿ÎÉè\syn\syn.c
+	<stdio.h>
+	<string.h>
+	"Lexical.h"
+	"syn.h"
+	"error.h"
+	"Lexical.h"
+
+1542811696 source:c:\users\administrator\desktop\syn\error.c
+	<stdio.h>
+	"error.h"
+	"Lexical.h"
+
+1542768815 c:\users\administrator\desktop\syn\error.h
+	<stdio.h>
+	"Lexical.h"
+
+1542785739 c:\users\administrator\desktop\syn\lexical.h
+
+1542811661 source:c:\users\administrator\desktop\syn\lexical.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Lexical.h"
+
+1542811638 source:c:\users\administrator\desktop\syn\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Lexical.h"
+	"syn.h"
+
+1542801423 c:\users\administrator\desktop\syn\syn.h
+	"Lexical.h"
+
+1542811817 source:c:\users\administrator\desktop\syn\syn.c
+	<stdio.h>
+	<string.h>
+	"Lexical.h"
+	"syn.h"
+	"error.h"
+	"Lexical.h"
+

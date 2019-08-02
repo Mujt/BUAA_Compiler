@@ -1,0 +1,22 @@
+int b;
+void main(){
+    int a[5],k;
+    char s[5],n;
+    int m;
+    k=0;
+    while(k+1<5+1){
+        scanf(m,n);
+        a[k]=m;
+        s[k]=n;
+        k=k+1;
+    }
+    scanf(k);
+
+    b=0;
+    while(b<5){
+        printf(a[b]);
+        printf(s[b]);
+        b=b+1;
+    }
+    printf(k);
+}

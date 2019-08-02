@@ -1,0 +1,737 @@
+in2.txt
+const char a const_char_a
+const char b const_char_b
+const char c const_char_c
+const char A const_char_A
+const int 1 const_int_postive
+const int 0 const_int_zero
+const int -1 const_int_negtive
+const char 9 const_char_num
+const char _ const_char_underline
+const char + const_char_add
+const char * const_char_mul
+int   int_global_var
+char   char_global_var
+int  10 sort
+func void  testIfWhile
+const int 1 test_if_1
+const int 2 test_if_2
+const char b const_char_a
+const char a const_char_b
+int   test_if_result
+int   loop_num
+= 0  test_if_result
+= 0  loop_num
+Lable   if0
++ const_char_a 1 t0
++ const_char_b 1 t1
+< t0 t1
+jne   endif0
+Lable   while0
+> test_if_result 100
+jne   endwhile0
++ test_if_result loop_num t2
+= t2  test_if_result
++ loop_num 1 t3
+= t3  loop_num
+jmp   while0
+Lable   endwhile0
+Lable   switch0
+- test_if_result 100 t4
+* t4 3 t5
+Lable   swi0cs0
+== t5 15
+jne   swi0csdef
+* test_if_result 10 t6
+- 0 t6 t7
+* 2 loop_num t8
++ t7 t8 t9
++ t9 117 t10
+- t10 const_char_a t11
+= t11  test_if_result
+- loop_num test_if_result t12
+* 10 const_char_b t13
++ t12 t13 t14
+- t14 100 t15
++ t15 42 t16
++ t16 34 t17
+* 2 test_if_result t18
++ t17 t18 t19
+= t19  loop_num
+jmp   endswitch0
+Lable   swi0csdef
+* test_if_result 4 t20
+* 5 loop_num t21
++ t20 t21 t22
++ t22 24 t23
+- t23 const_char_b t24
+= 'c'  t25
++ t24 t25 t26
+= t26  test_if_result
+- 0 loop_num t27
++ t27 test_if_result t28
+* 4 const_char_b t29
++ t28 t29 t30
+- t30 1653 t31
++ t31 453 t32
++ t32 555 t33
+* 4 test_if_result t34
+- t33 t34 t35
+= t35  loop_num
+Lable   endswitch0
+Lable   endif0
+prtf  test_if_result
+prtf  loop_num
+= 0  test_if_result
+= 0  loop_num
+Lable   if1
++ const_char_a 1 t36
++ const_char_b 1 t37
+>= t36 t37
+jne   endif1
+Lable   while1
+> test_if_result 10
+jne   endwhile1
+Lable   if2
+< loop_num 2
+jne   endif2
++ test_if_result loop_num t38
+= t38  test_if_result
+Lable   endif2
++ loop_num 1 t39
+= t39  loop_num
+Lable   if3
+/ test_if_result 2 t40
+* t40 2 t41
+== t41 test_if_result
+jne   endif3
++ loop_num 1 t42
+= t42  loop_num
+Lable   endif3
+jmp   while1
+Lable   endwhile1
+Lable   endif1
+prtf  test_if_result
+prtf  loop_num
+= 0  test_if_result
+= 0  loop_num
+Lable   if4
+> test_if_1 test_if_2
+jne   endif4
+Lable   while2
+> test_if_result 20
+jne   endwhile2
+Lable   switch1
+/ test_if_result 2 t43
+* t43 2 t44
+- test_if_result t44 t45
+Lable   swi1cs0
+== t45 0
+jne   swi1cs1
++ test_if_result 1 t46
+= t46  test_if_result
+jmp   endswitch1
+Lable   swi1cs1
+== t45 1
+jne   swi1csdef
++ test_if_result loop_num t47
+= t47  test_if_result
+jmp   endswitch1
+Lable   swi1csdef
+Lable   endswitch1
++ loop_num 1 t48
+= t48  loop_num
+jmp   while2
+Lable   endwhile2
+Lable   if5
+/ test_if_result 2 t49
+* t49 2 t50
+== test_if_result t50
+jne   endif5
+* test_if_result 7 t51
+* 2 loop_num t52
++ t51 t52 t53
++ t53 99 t54
+- t54 const_char_b t55
+= 'g'  t56
++ t55 t56 t57
+= t57  test_if_result
+- 0 loop_num t58
++ t58 test_if_result t59
+* 2 const_char_b t60
++ t59 t60 t61
+- t61 523 t62
++ t62 53 t63
++ t63 355 t64
+* 2 test_if_result t65
+- t64 t65 t66
+= t66  loop_num
+Lable   endif5
+Lable   endif4
+prtf  test_if_result
+prtf  loop_num
+Lable   if6
+<= test_if_2 test_if_1
+jne   endif6
+STR Str0  2 <= 1
+prtf Str0  strsym
+Lable   endif6
+Lable   if7
+== test_if_1 test_if_2
+jne   endif7
+STR Str1  1 == 2
+prtf Str1  strsym
+Lable   endif7
+= 0  test_if_result
+= 0  loop_num
+Lable   if8
+!= test_if_1 test_if_2
+jne   endif8
+Lable   switch2
+* loop_num 2 t67
+- test_if_result t67 t68
+Lable   swi2cs0
+== t68 0
+jne   swi2csdef
+Lable   while3
+> test_if_result 30
+jne   endwhile3
+Lable   switch3
+/ test_if_result 2 t69
+* t69 2 t70
+- t70 test_if_result t71
+Lable   swi3cs0
+== t71 -1
+jne   swi3cs1
++ test_if_result 1 t72
+= t72  test_if_result
+jmp   endswitch3
+Lable   swi3cs1
+== t71 0
+jne   endswitch3
++ test_if_result loop_num t73
+= t73  test_if_result
+jmp   endswitch3
+Lable   endswitch3
++ loop_num 1 t74
+= t74  loop_num
+jmp   while3
+Lable   endwhile3
+jmp   endswitch2
+Lable   swi2csdef
+- 0 1 t75
+= t75  test_if_result
+- 0 1 t76
+= t76  loop_num
+Lable   endswitch2
+Lable   endif8
+prtf  test_if_result
+prtf  loop_num
+Lable   if9
+- test_if_1 test_if_1 t77
+jne t77  endif9
+STR Str2  1 - 1 = true
+prtf Str2  strsym
+Lable   endif9
+- 0 1 t78
+= t78  int_global_var
+= 'a'  t79
+= t79  char_global_var
+endf   testIfWhile
+func void  testSwitchCase
+para int  test_switch_int
+para char  test_switch_char
+Lable   switch4
+Lable   swi4cs0
+== test_switch_int -1
+jne   swi4cs1
+Lable   while4
+* test_switch_int 20 t80
+/ 30 5 t81
++ t80 t81 t82
+> t82 10
+jne   endwhile4
+Lable   if10
+<= test_switch_int 0
+jne   endif10
++ test_switch_int 1 t83
+= t83  test_switch_int
+Lable   endif10
+jmp   while4
+Lable   endwhile4
+jmp   endswitch4
+Lable   swi4cs1
+== test_switch_int 0
+jne   swi4cs2
+Lable   if11
+* const_int_postive const_int_negtive t84
+- test_switch_int t84 t85
+== t85 0
+jne   endif11
+Lable   while5
+<= test_switch_int 0
+jne   endwhile5
++ test_switch_int 1 t86
+= -2  t87
+* t86 t87 t88
+= t88  test_switch_int
+jmp   while5
+Lable   endwhile5
+Lable   endif11
+jmp   endswitch4
+Lable   swi4cs2
+== test_switch_int 1
+jne   swi4csdef
+- 0 233 t89
+= t89  test_switch_int
+jmp   endswitch4
+Lable   swi4csdef
+= 233  test_switch_int
+Lable   endswitch4
+Lable   switch5
+Lable   swi5cs0
+== test_switch_char 'a'
+jne   swi5cs1
+= const_char_a  test_switch_char
+jmp   endswitch5
+Lable   swi5cs1
+== test_switch_char 'A'
+jne   swi5cs2
+= const_char_A  test_switch_char
+jmp   endswitch5
+Lable   swi5cs2
+== test_switch_char '9'
+jne   swi5cs3
+= const_char_num  test_switch_char
+jmp   endswitch5
+Lable   swi5cs3
+== test_switch_char '_'
+jne   swi5cs4
+= const_char_underline  test_switch_char
+jmp   endswitch5
+Lable   swi5cs4
+== test_switch_char '+'
+jne   swi5cs5
+= const_char_add  test_switch_char
+jmp   endswitch5
+Lable   swi5cs5
+== test_switch_char '*'
+jne   swi5csdef
+= const_char_mul  test_switch_char
+jmp   endswitch5
+Lable   swi5csdef
+= 'w'  t90
+= t90  test_switch_char
+Lable   endswitch5
+Lable   switch6
+Lable   swi6cs0
+== 0 0
+jne   swi6csdef
+jmp   endswitch6
+Lable   swi6csdef
+Lable   endswitch6
+prtf  test_switch_int
+prtf  test_switch_char
+- 0 2 t91
+= t91  int_global_var
+= 'b'  t92
+= t92  char_global_var
+endf   testSwitchCase
+func int  returnInt
+ret   10
+endf   returnInt
+func char  returnChar
+= 'r'  t93
+ret   t93
+endf   returnChar
+func int  returnIntParameter
+para int  select
+para int  int_parameter_1
+para int  int_parameter_2
+para int  int_parameter_3
+para int  int_parameter_4
+int   _tmp
+Lable   switch7
+Lable   swi7cs0
+== select 1
+jne   swi7cs1
+= int_parameter_1  _tmp
+jmp   endswitch7
+Lable   swi7cs1
+== select 2
+jne   swi7cs2
+= int_parameter_2  _tmp
+jmp   endswitch7
+Lable   swi7cs2
+== select 3
+jne   swi7cs3
+= int_parameter_3  _tmp
+jmp   endswitch7
+Lable   swi7cs3
+== select 4
+jne   swi7csdef
+= int_parameter_4  _tmp
+jmp   endswitch7
+Lable   swi7csdef
+= 0  _tmp
+Lable   endswitch7
+ret   _tmp
+endf   returnIntParameter
+func char  returnCharParameter
+para int  select
+para char  char_parameter_1
+para char  char_parameter_2
+para char  char_parameter_3
+para char  char_parameter_4
+Lable   switch8
+Lable   swi8cs0
+== select 1
+jne   swi8cs1
+ret   char_parameter_1
+jmp   endswitch8
+Lable   swi8cs1
+== select 2
+jne   swi8cs2
+ret   char_parameter_2
+jmp   endswitch8
+Lable   swi8cs2
+== select 3
+jne   swi8cs3
+ret   char_parameter_3
+jmp   endswitch8
+Lable   swi8cs3
+== select 4
+jne   swi8csdef
+ret   char_parameter_4
+jmp   endswitch8
+Lable   swi8csdef
+= '0'  t94
+ret   t94
+Lable   endswitch8
+endf   returnCharParameter
+func void  testAssign
+const int 10 test_assign_10
+int   int_test_assign
+int  3 int_array_test_assign
+char   char_test_assign
+char  3 char_array_test_assign
+set  2 select
+= -1  t95
+- 0 t95 t96
+set  t96 int_parameter_1
+- 0 2 t97
+set  t97 int_parameter_2
+set  test_assign_10 int_parameter_3
+call returnChar  t98
+- t98 const_char_a t99
+set  t99 int_parameter_4
+call returnIntParameter  t100
+= 'c'  t101
+- t101 const_char_a t102
+* t100 t102 t103
+/ t103 2 t104
++ 10 t104 t105
+= t105  int_test_assign
+/ int_test_assign 4 t106
++ t106 const_char_a t107
+= 'a'  t108
+- t107 t108 t109
+- t109 2 t110
+= -2  t111
+- 0 t111 t112
+[]= t110 t112 int_array_test_assign
+= -2  t113
+aassi int_array_test_assign 0 t114
+/ int_test_assign t114 t115
++ t113 t115 t116
+call returnInt  t117
++ t116 t117 t118
+- t118 11 t119
+call returnInt  t120
+- 0 t120 t121
+call returnChar  t122
+- t122 const_char_a t123
+* test_assign_10 t123 t124
+set  4 select
+= 'b'  t125
+- 0 t125 t126
+= 'c'  t127
++ t126 t127 t128
+set  t128 int_parameter_1
+call returnInt  t129
+set  t129 int_parameter_2
+set  test_assign_10 int_parameter_3
+= 'a'  t130
+set  t130 int_parameter_4
+call returnIntParameter  t131
++ t124 t131 t132
++ t121 t132 t133
+[]= t119 t133 int_array_test_assign
+- 0 255 t134
+aassi int_array_test_assign 1 t135
++ t134 t135 t136
+= 'b'  t137
+* t137 2 t138
++ t136 t138 t139
+- t139 196 t140
+= 'b'  t141
+- 0 t141 t142
+= 'c'  t143
++ t142 t143 t144
+[]= t140 t144 int_array_test_assign
+call returnChar  t145
+= t145  char_test_assign
+set  4 select
+= 'a'  t146
+set  t146 char_parameter_1
+call returnChar  t147
+set  t147 char_parameter_2
+call returnChar  t148
+set  t148 char_parameter_3
+set  const_char_a char_parameter_4
+call returnCharParameter  t149
+[]= 0 t149 char_array_test_assign
+aassi char_array_test_assign 0 t150
+[]= 1 t150 char_array_test_assign
+= 'x'  t151
+[]= 2 t151 char_array_test_assign
+prtf  int_test_assign
+aassi int_array_test_assign 0 t152
+prtf  t152
+aassi int_array_test_assign 1 t153
+prtf  t153
+aassi int_array_test_assign 2 t154
+prtf  t154
+prtf  char_test_assign
+aassi char_array_test_assign 0 t155
+prtf  t155
+aassi char_array_test_assign 1 t156
+prtf  t156
+aassi char_array_test_assign 2 t157
+prtf  t157
+- 0 3 t158
+= t158  int_global_var
+= 'c'  t159
+= t159  char_global_var
+endf   testAssign
+func void  testInputOutput
+int   int_test_input
+char   char_test_input
+int   int_global_var
+char   char_global_var
+scaf   int_test_input
+scaf   char_test_input
+STR Str3   !#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+prtf Str3  strsym
+STR Str4  int_test_input =
+prtf Str4 int_test_input strsym
+STR Str5  char_test_input =
+prtf Str5 char_test_input strsym
+- 0 4 t160
+= t160  int_global_var
+= 'd'  t161
+= t161  char_global_var
+endf   testInputOutput
+func void  testTrick
+endf   testTrick
+func int  judge1
+para int  a
+para int  b
+para int  c
+para int  d
+int   ret
+= 0  ret
+Lable   if12
+> a b
+jne   endif12
+Lable   if13
+>= c d
+jne   endif13
+= 1  ret
+Lable   endif13
+Lable   endif12
+ret   ret
+endf   judge1
+func int  judge2
+para int  a
+para int  b
+para int  c
+para int  d
+int   ret
+= 0  ret
+Lable   if14
+> a b
+jne   endif14
+Lable   if15
+<= c d
+jne   endif15
+= 1  ret
+Lable   endif15
+Lable   endif14
+ret   ret
+endf   judge2
+func void  Qsort
+para int  low
+para int  high
+int   first
+int   last
+int   key
+= low  first
+= high  last
+aassi sort first t162
+= t162  key
+Lable   if16
+>= low high
+jne   endif16
+ret
+Lable   endif16
+Lable   while6
+> first last
+jne   endwhile6
+Lable   while7
+set  first a
+set  last b
+aassi sort last t163
+set  t163 c
+set  key d
+call judge1  t164
+== t164 1
+jne   endwhile7
+- last 1 t165
+= t165  last
+jmp   while7
+Lable   endwhile7
+aassi sort last t166
+[]= first t166 sort
+Lable   while8
+set  first a
+set  last b
+aassi sort first t167
+set  t167 c
+set  key d
+call judge2  t168
+== t168 1
+jne   endwhile8
++ first 1 t169
+= t169  first
+jmp   while8
+Lable   endwhile8
+aassi sort first t170
+[]= last t170 sort
+jmp   while6
+Lable   endwhile6
+[]= first key sort
+set  low low
+- first 1 t171
+set  t171 high
+call Qsort
++ first 1 t172
+set  t172 low
+set  high high
+call Qsort
+ret
+endf   Qsort
+func void  testRecursion
+int   i
+[]= 0 5 sort
+[]= 1 8 sort
+[]= 2 3 sort
+[]= 3 6 sort
+[]= 4 4 sort
+[]= 5 1 sort
+[]= 6 2 sort
+[]= 7 7 sort
+set  0 low
+set  7 high
+call Qsort
+= 0  i
+Lable   while9
+> i 8
+jne   endwhile9
+aassi sort i t173
+prtf  t173
++ i 1 t174
+= t174  i
+jmp   while9
+Lable   endwhile9
+- 0 5 t175
+= t175  int_global_var
+= 'e'  t176
+= t176  char_global_var
+endf   testRecursion
+func void  testCallFunction
+int   test_select
+scaf   test_select
+Lable   switch9
+Lable   swi9cs0
+== test_select 0
+jne   swi9cs1
+call testIfWhile
+jmp   endswitch9
+Lable   swi9cs1
+== test_select 1
+jne   swi9cs2
+set  const_int_postive test_switch_int
+set  const_char_a test_switch_char
+call testSwitchCase
+set  const_int_negtive test_switch_int
+= '+'  t177
+set  t177 test_switch_char
+call testSwitchCase
+set  0 test_switch_int
+= '_'  t178
+set  t178 test_switch_char
+call testSwitchCase
+set  2 test_switch_int
+= '9'  t179
+set  t179 test_switch_char
+call testSwitchCase
+jmp   endswitch9
+Lable   swi9cs2
+== test_select 2
+jne   swi9cs3
+call testAssign
+jmp   endswitch9
+Lable   swi9cs3
+== test_select 3
+jne   swi9cs4
+call testInputOutput
+jmp   endswitch9
+Lable   swi9cs4
+== test_select 4
+jne   endswitch9
+call testRecursion
+jmp   endswitch9
+Lable   endswitch9
+prtf  int_global_var
+prtf  char_global_var
+endf   testCallFunction
+func void  main
+= 0  int_global_var
+= '_'  t180
+= t180  char_global_var
+call testCallFunction
+call testTrick
+endf   main
+********
+********
+********
+********
+********
+********
+********
+********
+********
+********
+********
+********
+********
+********
+********
+********
+********
+********
+********
+********
+********
+********

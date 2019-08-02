@@ -1,0 +1,29 @@
+const int _a1=10,_b_2=11;
+const char _c='c';
+
+int add(int a,int k){
+    return (a+k);
+}
+int addx(int a, int k){
+    int ax[2];
+    ax[1]=1;
+    ax[0]=2;
+    return (a+ax[1-ax[0]+add(a,k));
+}
+int add_l(int a,int b,int c,int d,int e,int f){
+    return (a+b+c+d+e+f);
+}
+void main(){
+    const int k=1;
+    char bb;
+    bb='b';
+
+    printf(1)
+    printf('c');
+    printf("--1++1--2+-3-+4",--1++1--2+-3-+4);
+    printf("_a1-_b_2+bb+addx(1,2)",_a1-_b_2+bb+addx(1,2));
+    printf("add(add(1,1),add(1,1)))",add(add(1,1),add(1,1)));
+    printf(2*(_a1+_b_2*(add(_a1,2))));
+    printf(add_l(1,2,3,4,5,6));
+    printf("  !#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUV  WXYZ[\]^`abcdefghijklmnopqrstuvwxyz{|}~ ");
+}

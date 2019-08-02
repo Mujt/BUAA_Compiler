@@ -1,0 +1,125 @@
+#include <iostream>
+
+using namespace std;
+string key[12],ksystr[12],specss[18],idchss[4];
+char spsch[18],ch;
+char token[100];
+ofstream outfile;
+ifstream infile;
+enum reserv{
+    CASESY=1,
+    CHARSY,
+    CONSTSY,
+    IFSY,
+    INTSY,
+    MAINSY,
+    PRINTSY,
+    RETURNSY,
+    SCANFSY,
+    SWITCHSY,
+    VOIDSY,
+    WHILESY,
+
+    ident=13,
+    stringcon,
+    charcon,
+    ints,
+
+    andsy=17, //'!'
+    doubquota, //'"'
+    semicolon,//';'
+    comma,//','
+    colon,//':'
+    lbrace,//'{'
+    rbrace,//'}'
+    lparent,//'('
+    rparent,//')'
+    lbrack,//'['
+    rbrack,//']'
+    pluss,//'+'
+    minuss,//'-'
+    times,//'*'
+    idiv,//'/'
+    eql,//'='
+    leq,//'<'
+    geq,//'>'
+    quotat//''''
+};
+reserv ksy[12],sps[18],idcss[4],sy;
+void setinial(){
+    key[0]="case    ";
+    key[1]="char    ";
+    key[2]="const   ";
+    key[3]="if      ";
+    key[4]="int     ";
+    key[5]="main    ";
+    key[6]="printf  ";
+    key[7]="return  ";
+    key[8]="scanf   ";
+    key[9]="switch  ";
+    key[10]="void    ";
+    key[11]="while   ";
+
+    ksy[0]=CASESY;  ksystr[0] ="CASESY  ";
+    ksy[1]=CHARSY;  ksystr[1] ="CHARSY  ";
+    ksy[2]=CONSTSY; ksystr[2] ="CONSTSY ";
+    ksy[3]=IFSY;    ksystr[3] ="IFSY    ";
+    ksy[4]=INTSY;   ksystr[4] ="INTSY   ";
+    ksy[5]=MAINSY;  ksystr[5] ="MAINSY  ";
+    ksy[6]=PRINTSY; ksystr[6] ="PRINTSY ";
+    ksy[7]=RETURNSY;ksystr[7] ="RETURNSY";
+    ksy[8]=SCANFSY; ksystr[8] ="SCANFSY ";
+    ksy[9]=SWITCHSY;ksystr[9] ="SWITCHSY";
+    ksy[10]=VOIDSY; ksystr[10]="VOIDSY  ";
+    ksy[11]=WHILESY;ksystr[11]="WHILESY ";
+
+    idcss[0]=ident;    idchss[0]="ident    ";
+    idcss[1]=charcon;  idchss[1]="charcon  ";
+    idcss[2]=stringcon;idchss[2]="stringcon";
+    idcss[3]=ints;     idchss[3]="ints     ";
+
+    sps[0]=andsy;    specss[0]="andsy    "; spsch[0]='!';
+    sps[1]=doubquota;specss[1]="doubquota"; spsch[1]='"';
+    sps[2]=semicolon;specss[2]="semicolon"; spsch[2]=';';
+    sps[3]=comma;    specss[3]="comma    "; spsch[3]=',';
+    sps[4]=colon;    specss[4]="colon    "; spsch[4]=':';
+    sps[5]=lbrace;   specss[5]="lbrace   "; spsch[5]='{';
+    sps[6]=rbrace;   specss[6]="rbrace   "; spsch[6]='}';
+    sps[7]=lparent;  specss[7]="lparent  "; spsch[7]='(';
+    sps[8]=rparent;  specss[8]="rparent  "; spsch[8]=')';
+    sps[9]=lbrack;   specss[9]="lbrack   "; spsch[9]='[';
+    sps[10]=rbrack;  specss[10]="rbrack   "; spsch[10]=']';
+    sps[11]=pluss;   specss[11]="pluss    "; spsch[11]='+';
+    sps[12]=minuss;  specss[12]="minuss   "; spsch[12]='-';
+    sps[13]=times;   specss[13]="times    "; spsch[13]='*';
+    sps[14]=idiv;    specss[14]="idiv     "; spsch[14]='/';
+    sps[15]=eql;     specss[15]="eql      "; spsch[15]='=';
+    sps[16]=leq;     specss[16]="leq      "; spsch[16]='<';
+    sps[17]=geq;     specss[17]="geq      "; spsch[17]='>';
+}
+void nextch(){
+    infile.get(ch);
+}
+void retract(){
+    infile.seekg(-1,ios::cur);
+}
+void cleartoken(){
+
+}
+void insym(){
+}
+int main()
+{
+    setinial();
+    /*╤ап╢нд╪Ч*/
+    infile.open("in.txt");
+    outfile.open("out.txt",ios::out|ios::trunc);
+
+
+
+
+
+    infile.close();
+    outfile.close();
+    return 0;
+}

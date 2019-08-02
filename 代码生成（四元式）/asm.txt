@@ -1,0 +1,36 @@
+int findaddr(char* name)	//寻找变量在运行栈中的位置
+void insertaddr(char* name)	//在运行栈中插入变量位置
+void globalcondef()	//全局常量定义生成
+void globalvardef()	//全局变量定义生成
+void initasm()//预处理整个目标代码
+int isNum()	//判断是否是数字字符
+void func_mips()	//函数目标吗生成
+void myend_mips()	//用于数组结束判断
+void ret_mips()	//返回目标码生成
+void ints_mips()	//整型变量目标码生成
+void chars_mips()	//字符型变量目标码生成
+void inta_mips()	//整型数组目标码生成
+void chara_mips()	//字符型数组目标码生成
+void add_mips()	//加指令目标码生成
+void sub_mips()//	减指令目标码生成
+void mul_mips()	//乘指令目标码生成
+void div_mips()	//除指令目标码生成
+void prtf_mips()	//输出指令目标码生成
+void scf_mips()	//读指令目标码生成
+void lab_mips()	//标签目标码生成
+void paraop_mips()	//函数指参传递指令目标码生成
+void calpara_mips()	//函数调用参数目标码生成
+void call_mips()	//函数调用指令目标码生成
+void jmp_mips()	//跳转指令目标码生成
+void jne_mips()	//跳转目的指令生成
+void ass_mipa()	//普通赋值语句目标码生成
+void bt_mips()	//大于指令目标码生成
+void st_mips()	//小于指令目标码生成
+void eql_mips()	//等于指令目标码生成
+void neq_mips()	//不等于指令目标码生成
+void nbt_mips()	//不大于指令目标码生成
+void nst_mips()	//不小于指令目标码生成
+void assignA_mips()	//赋值数组指令目标码生成
+void aAssign_mips()	//数组赋值指令目标码生成
+void exit_mips()	//退出指令目标码生成
+void run()	//运行函数

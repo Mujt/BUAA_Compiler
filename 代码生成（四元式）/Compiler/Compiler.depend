@@ -1,0 +1,58 @@
+# depslib dependency file v1.0
+1543315599 source:d:\±àÒëÆ÷¿ÎÉè\compiler\error.c
+	<stdio.h>
+	"error.h"
+	"Lexical.h"
+
+1542768815 d:\±àÒëÆ÷¿ÎÉè\compiler\error.h
+	<stdio.h>
+	"Lexical.h"
+
+1542785739 d:\±àÒëÆ÷¿ÎÉè\compiler\lexical.h
+
+1542811661 source:d:\±àÒëÆ÷¿ÎÉè\compiler\lexical.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Lexical.h"
+
+1543760381 source:d:\±àÒëÆ÷¿ÎÉè\compiler\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Lexical.h"
+	"syn.h"
+	"midcode.h"
+	"asm.h"
+
+1543747782 d:\±àÒëÆ÷¿ÎÉè\compiler\syn.h
+	"Lexical.h"
+
+1543764939 source:d:\±àÒëÆ÷¿ÎÉè\compiler\syn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Lexical.h"
+	"syn.h"
+	"error.h"
+	"Lexical.h"
+	"midcode.h"
+
+1543764620 source:d:\±àÒëÆ÷¿ÎÉè\compiler\asm.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"asm.h"
+	"midcode.h"
+	"syn.h"
+
+1543759453 d:\±àÒëÆ÷¿ÎÉè\compiler\asm.h
+
+1543746579 source:d:\±àÒëÆ÷¿ÎÉè\compiler\midcode.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"midcode.h"
+
+1543746579 d:\±àÒëÆ÷¿ÎÉè\compiler\midcode.h
+

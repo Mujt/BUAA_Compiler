@@ -1,0 +1,19 @@
+const int _a1=10,_b_2=11;
+const char _c='c';
+
+int add(int a,int k){
+    return (a+k);
+}
+void ret1(){
+    return (1);
+}
+int addx(int a, int k){
+    int ax[2];
+    ax[1]=1;
+    ax[0]=2;
+    return (a+ax[1]-ax[0]+add(k));
+}
+int add_l(int a,int b,int c,int d,int e,int f){
+
+}
+

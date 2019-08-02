@@ -1,0 +1,366 @@
+const int 0 a1
+const int 1 b1
+const int 10 c1
+const char a A1
+const char A B1
+const char + C1
+const char - D1
+const char * E1
+const char / F1
+const char _ G1
+const char 1 H1
+const int 0 d1
+const int 0 e1
+const int 5 f1
+const int 10 g1
+int  10 Fibonaq
+int   count
+char   _a__A_
+func int  add
+para int  a
+para int  k
+const int 0 i
++ a k t0
+ret   t0
+endf   add
+func int  ret1
+para int  swi
+Lable   if0
+== swi 1
+jne   endif0
+ret   1
+Lable   endif0
+Lable   if1
+== swi 0
+jne   endif1
+ret   'a'
+Lable   endif1
+endf   ret1
+func void  fun_void
+const int 10 a
+int   b
+char   sc
+endf   fun_void
+func int  funct_add
+para int  a
+para int  k
+int   c
+char  2 fun_cc
+[]= 0 'Z' fun_cc
+[]= 1 '0' fun_cc
+* a k t1
+= t1  c
+set  a a
+set  k k
+call add  t2
++ c t2 t3
+aassi fun_cc 1 t4
+- t3 t4 t5
+aassi fun_cc 0 t6
++ t5 t6 t7
+ret   t7
+endf   funct_add
+func char  trans_case
+para char  s
+Lable   if2
+>= s 'A'
+jne   endif2
+Lable   if3
+<= s 'Z'
+jne   endif3
++ s 'a' t8
+- t8 'A' t9
+ret   t9
+Lable   endif3
+Lable   endif2
+Lable   if4
+>= s 'a'
+jne   endif4
+Lable   if5
+<= s 'z'
+jne   endif5
+- 'a' 'A' t10
+- s t10 t11
+ret   t11
+Lable   endif5
+Lable   endif4
+endf   trans_case
+func void  count_1
++ count 1 t12
+= t12  count
+ret
+endf   count_1
+func void  FibonA
+para int  k
+Lable   if6
+== k 10
+jne   endif6
+ret
+Lable   endif6
+- k 1 t13
+aassi Fibonaq t13 t14
+- k 2 t15
+aassi Fibonaq t15 t16
++ t14 t16 t17
+[]= k t17 Fibonaq
++ k 1 t18
+set  t18 k
+call FibonA
+ret
+endf   FibonA
+func void  main
+const int 10 a_num
+const int 20 b_num
+const char c test
+int  5 a_array
+int   k
+char  5 C_array
+int   m
+int   swisym
+char   n
+int   Fibo_count
+int   sc
+int   a
+int   b
+char   sss
+int   sk
+= 0  sk
+= 'S'  sss
+= 0  k
+call count_1
+Lable   while0
+> k 5
+jne   endwhile0
+scaf   m
+scaf   n
+[]= k m a_array
+[]= k n C_array
++ k 1 t19
+= t19  k
+jmp   while0
+Lable   endwhile0
+scaf   _a__A_
+scaf   sc
+scaf   a
+scaf   b
+call count_1
+= 2  Fibo_count
+[]= 0 0 Fibonaq
+[]= 1 1 Fibonaq
+set  Fibo_count
+call FibonA
+= 0  k
+Lable   while1
+> k 10
+jne   endwhile1
+STR Str0  FIBONAQ:
+aassi Fibonaq k t20
+prtf Str0 t20 strsym
++ k 1 t21
+= t21  k
+jmp   while1
+Lable   endwhile1
+call count_1
+call fun_void
+call count_1
+Lable   switch0
+Lable   swi0csa
+== _a__A_ a
+jne   swi0csb
+Lable   if7
+jne sc  endif7
+STR Str1  _a__A_ is the first:
+prtf Str1 _a__A_ strsym
+Lable   endif7
+Lable   switch1
+Lable   swi1cseØül0
+== sk eØül0
+jne   swi1csdef
+STR Str2  sk is 0
+prtf Str2  strsym
+jmp   endswitch1
+Lable   swi1csdef
+STR Str3  sk is not 0
+prtf Str3  strsym
+Lable   endswitch1
+jmp   endswitch0
+Lable   swi0csb
+== _a__A_ b
+jne   swi0csc
+Lable   if8
+jne sc  endif8
+STR Str4  _a__A_ is the second:
+prtf Str4 _a__A_ strsym
+Lable   endif8
+jmp   endswitch0
+Lable   swi0csc
+== _a__A_ c
+jne   swi0csdef
+Lable   if9
+jne sc  endif9
+STR Str5  _a__A_ is the third:
+prtf Str5 _a__A_ strsym
+Lable   endif9
+jmp   endswitch0
+Lable   swi0csdef
+STR Str6  default:_a__A_ is not in swich words:
+prtf Str6 _a__A_ strsym
+Lable   endswitch0
+call count_1
+Lable   if10
+>= a b
+jne   endif10
+STR Str7  a >= b
+prtf Str7  strsym
+Lable   endif10
+Lable   if11
++ a 1 t22
+* 2 b t23
+<= t22 t23
+jne   endif11
+STR Str8  a+1 <= 2b
+prtf Str8  strsym
+Lable   endif11
+Lable   if12
+== a 10
+jne   endif12
+STR Str9  a is 10;
+prtf Str9  strsym
+Lable   endif12
+Lable   if13
+!= a b
+jne   endif13
+STR Str10  a != b
+prtf Str10  strsym
+Lable   endif13
+Lable   if14
+* 2 b t24
+> a t24
+jne   endif14
+STR Str11  a < 2*b
+prtf Str11  strsym
+Lable   endif14
+Lable   if15
+< a b
+jne   endif15
+STR Str12  a > b
+prtf Str12  strsym
+Lable   endif15
+Lable   if16
++ a b t25
+jne t25  endif16
+STR Str13  a+b is not 0
+prtf Str13  strsym
+Lable   endif16
+call count_1
++ a 100 t26
+set  t26 a
+* b 2 t27
+set  t27 k
+call add  t28
+prtf  t28
+call count_1
+STR Str14  funct_add:
+set  a a
+set  b k
+call funct_add  t29
+prtf Str14 t29 strsym
+call count_1
++ A1 B1 t30
++ t30 C1 t31
++ t31 D1 t32
++ t32 E1 t33
++ t33 F1 t34
++ t34 G1 t35
++ t35 H1 t36
+prtf  t36
+call count_1
+- b 1 t37
+* a t37 t38
++ a t38 t39
+= t39  b
+STR Str15  a+b+A1-B1:
++ a b t40
++ t40 A1 t41
+- t41 B1 t42
+prtf Str15 t42 strsym
++ a1 d1 t43
++ t43 e1 t44
+prtf  t44
++ f1 g1 t45
+prtf  t45
+STR Str16  -(a+b)+A1-B1+a*b/2-add(k,1)*2+a_array[1]*2/3+'a'-10:
++ a b t46
+- 0 t46 t46
++ t46 A1 t47
+- t47 B1 t48
+* a b t49
+/ t49 2 t50
++ t48 t50 t51
+set  k a
+set  1 k
+call add  t52
+* t52 2 t53
+- t51 t53 t54
+aassi a_array 1 t55
+* t55 2 t56
+/ t56 3 t57
+aassi a_array 0 t58
+* t57 t58 t59
++ t54 t59 t60
++ t60 'a' t61
+- t61 10 t62
+prtf Str16 t62 strsym
+call count_1
+STR Str17    !#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUV  WXYZ[\]^`abcdefghijklmnopqrstuvwxyz{|}~
+prtf Str17  strsym
+call count_1
+prtf  1
+prtf  'a'
+STR Str18  Helloworld!
+prtf Str18  strsym
+STR Str19  count_1:
+prtf Str19 count strsym
+STR Str20  print1:
+aassi a_array 0 t63
+set  t63 a
+aassi a_array 1 t64
++ t64 1 t65
+set  t65 k
+call add  t66
+prtf Str20 t66 strsym
+aassi C_array 0 t67
+prtf  t67
+aassi C_array 0 t68
+set  t68 s
+call trans_case  t69
+* t69 10 t70
+/ t70 2 t71
+prtf  t71
+= 5  k
+Lable   while2
+* 2 k t72
+- t72 k t73
+jne t73  endwhile2
+- k 1 t74
+aassi C_array t74 t75
+set  t75 s
+call trans_case  t76
+prtf  t76
+- k 1 t77
+= t77  k
+Lable   while3
+== sk 0
+jne   endwhile3
++ sk 1 t78
+= t78  sk
+jmp   while3
+Lable   endwhile3
+jmp   while2
+Lable   endwhile2
+ret
+endf   main
+Compiler process over!
+
+Process returned 0 (0x0)   execution time : 0.241 s
+Press any key to continue.

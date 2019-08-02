@@ -1,0 +1,127 @@
+# depslib dependency file v1.0
+1544327880 source:d:\编译器课设\compiler\error.c
+	<stdio.h>
+	"error.h"
+	"Lexical.h"
+
+1542768815 d:\编译器课设\compiler\error.h
+	<stdio.h>
+	"Lexical.h"
+
+1544327707 d:\编译器课设\compiler\lexical.h
+
+1544327707 source:d:\编译器课设\compiler\lexical.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Lexical.h"
+
+1544284706 source:d:\编译器课设\compiler\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Lexical.h"
+	"syn.h"
+	"midcode.h"
+	"asm.h"
+
+1543747782 d:\编译器课设\compiler\syn.h
+	"Lexical.h"
+
+1544327415 source:d:\编译器课设\compiler\syn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Lexical.h"
+	"syn.h"
+	"error.h"
+	"Lexical.h"
+	"midcode.h"
+
+1544166123 source:d:\编译器课设\compiler\asm.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"asm.h"
+	"midcode.h"
+	"syn.h"
+
+1543813650 d:\编译器课设\compiler\asm.h
+
+1543746579 source:d:\编译器课设\compiler\midcode.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"midcode.h"
+
+1543746579 d:\编译器课设\compiler\midcode.h
+
+1546534226 source:c:\users\administrator\desktop\16231173_1941\16231173_母江涛_目标代码执行\compiler\asm.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"asm.h"
+	"midcode.h"
+	"syn.h"
+
+1546593085 c:\users\administrator\desktop\16231173_1941\16231173_母江涛_目标代码执行\compiler\asm.h
+
+1546533304 c:\users\administrator\desktop\16231173_1941\16231173_母江涛_目标代码执行\compiler\midcode.h
+
+1546318622 c:\users\administrator\desktop\16231173_1941\16231173_母江涛_目标代码执行\compiler\syn.h
+	"Lexical.h"
+
+1546145133 c:\users\administrator\desktop\16231173_1941\16231173_母江涛_目标代码执行\compiler\lexical.h
+
+1546323510 source:c:\users\administrator\desktop\16231173_1941\16231173_母江涛_目标代码执行\compiler\error.c
+	<stdio.h>
+	"error.h"
+	"Lexical.h"
+
+1545488386 c:\users\administrator\desktop\16231173_1941\16231173_母江涛_目标代码执行\compiler\error.h
+	<stdio.h>
+	"Lexical.h"
+
+1546149237 source:c:\users\administrator\desktop\16231173_1941\16231173_母江涛_目标代码执行\compiler\lexical.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Lexical.h"
+
+1546534079 source:c:\users\administrator\desktop\16231173_1941\16231173_母江涛_目标代码执行\compiler\midcode.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"midcode.h"
+
+1546614026 source:c:\users\administrator\desktop\16231173_1941\16231173_母江涛_目标代码执行\compiler\syn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Lexical.h"
+	"syn.h"
+	"error.h"
+	"Lexical.h"
+	"midcode.h"
+
+1546613670 source:c:\users\administrator\desktop\16231173_1941\16231173_母江涛_目标代码执行\compiler\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Lexical.h"
+	"syn.h"
+	"midcode.h"
+	"asm.h"
+	"error.h"
+	"optimize.h"
+
+1546614049 source:c:\users\administrator\desktop\16231173_1941\16231173_母江涛_目标代码执行\compiler\optimize.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"optimize.h"
+	"midcode.h"
+	"syn.h"
+
+1546600750 c:\users\administrator\desktop\16231173_1941\16231173_母江涛_目标代码执行\compiler\optimize.h
+

@@ -1,0 +1,42 @@
+const int _in1=1,_in2=0;
+const char _sn1='_',_sn2='a',_sn3='A';
+const int _in3=+0,_in4=-0,_in4=-10,_in5=+10;
+
+int a,b,c[5];
+char ss[5];
+int d;
+
+int add(int e,int f){
+	return e+f;
+}
+void ff(){
+	int i;
+	i=0;
+	while(i<5){
+		c[i]=i+1;
+	}
+}
+void main(){
+	const int wsw1=10;
+	const char wsw2='+',wsw3='-';
+	const char wsw4='*',wsw5='/';
+	
+	int k;
+	char s[2];
+	
+	scanf(k);
+	
+	switch(k){
+		case 1:printf(1);
+		case 2:printf('a');
+		case 3:printf(" Hello world! ");
+		case 4:printf("Hello:",k+1*2);
+		case 5:printf(k+1*2);
+		default:
+			printf("Error!");
+	}
+	
+	if(k >= 6)
+		printf("k is:",k*2);
+	return ;
+}

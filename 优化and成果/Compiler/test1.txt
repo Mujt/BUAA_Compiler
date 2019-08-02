@@ -1,0 +1,23 @@
+int Fibonaq[10];
+
+int FibonA(int k){
+	if(k==10)
+		return;
+	Fibonaq[k]=Fibonaq[k-1]+Fibonaq[k-2];
+
+	FibonA(k+1);
+	return;
+}
+void main(){
+    int k;
+    int Fibo_count;
+    Fibo_count=2;
+	Fibonaq[0]=0;
+	Fibonaq[1]=1;
+	FibonA(Fibo_count);
+	k=0;
+	while(k<10){
+		printf("FIBONAQ:",Fibonaq[k]);
+		k=k+1;
+	}
+}
